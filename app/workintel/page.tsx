@@ -11,11 +11,11 @@ const page = () => {
                     <main className=' h-full py-[1.5rem] '>
                         <div className='my-0 mx-auto py-0 px-[3rem] h-full max-w-[1280px] min-w-[900px]'>
                             <ul className='my-[-1.5rem] mx-0'>
-                                <li className='relative border border-solid border-black  my-[1.5rem] mx-0 shadow-[0_1px_2px_0px_rgba(60,64,67,0.3),0_1px_3px_1px_rgba(60,64,67,.15)]'>
+                                <li className='relative border-2 border-solid border-black  my-[1.5rem] mx-0 '>
                                     {/* <div className='grid grid-rows-[repeat(3,min-content)] grid-cols-[repeat(3,min-content)]'>
                   <div></div>
                 </div> */}
-                                    <div className='flex flex-col pt-10  text-[#100C0A] px-10 bg-[#FFFFFF] h-[800px]' >
+                                    <div className='flex flex-col pt-10  text-[#100C0A] px-10 bg-[#FFFBF8] h-[800px]' >
                                         <div className='flex   '>
                                             <div className='w-[400px] flex self-start pb-6'>
 

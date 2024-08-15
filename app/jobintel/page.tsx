@@ -45,11 +45,11 @@ const page = () => {
                     <main className=' h-full py-[1.5rem] '>
                         <div className='my-0 mx-auto py-0 px-[3rem] h-full max-w-[1280px] min-w-[900px]'>
                             <ul className='my-[-1.5rem] mx-0'>
-                                <li className='relative border border-solid border-black  my-[1.5rem] mx-0 shadow-[0_1px_2px_0px_rgba(60,64,67,0.3),0_1px_3px_1px_rgba(60,64,67,.15)]'>
-                                    <div className='flex-grow-0 flex-shrink-0 basis-auto bg-[#A7F9A4]  px-[2rem] py-[1.5rem]  p-[.75rem]  border-b border-solid border-black'>
+                                <li className='relative border-2 border-solid border-black  my-[1.5rem] mx-0 '>
+                                    <div className='flex-grow-0 flex-shrink-0 basis-auto bg-[#A7F9A4]  px-[2rem] py-[1.5rem]  p-[.75rem]  border-b-2 border-solid border-black'>
                                         <h2 className={`${QuandoRegular.className} text-[#100C0ACC] text-start text-[1.5rem] leading-[2rem] font-normal  `}>SDE 1 - Growth</h2>
                                     </div>
-                                    <div className='mx-auto  h-full bg-[#FFFFFF]  pt-[1rem] px-[2rem] pb-[1.5rem]'>
+                                    <div className='mx-auto  h-full bg-[#FFFBF8]  pt-[1rem] px-[2rem] pb-[1.5rem]'>
                                         <div className=''>
 
                                             <div className={`${DMSansReg.className} text-start text-[#CFFAAB] px-4 py-2 my-4 bg-[#2D2D2D] w-min whitespace-pre`}>
@@ -83,11 +83,11 @@ const page = () => {
                 </div> */}
                                 </li>
 
-                                <li className='relative border border-solid border-black  my-[1.5rem] mx-0 shadow-[0_1px_2px_0px_rgba(60,64,67,0.3),0_1px_3px_1px_rgba(60,64,67,.15)]'>
-                                    <div className='flex-grow-0 flex-shrink-0 basis-auto bg-[#A7F9A4]  px-[2rem] py-[1.5rem]  p-[.75rem]  border-b border-solid border-black'>
+                                <li className='relative border-2 border-solid border-black  my-[1.5rem] mx-0 '>
+                                    <div className='flex-grow-0 flex-shrink-0 basis-auto bg-[#A7F9A4]  px-[2rem] py-[1.5rem]  p-[.75rem]  border-b-2 border-solid border-black'>
                                         <h2 className={`${QuandoRegular.className} text-[#100C0ACC]  text-start text-[1.5rem] leading-[2rem] font-normal  `}>AI/ML Research Intern</h2>
                                     </div>
-                                    <div className='mx-auto  h-full bg-[#FFFFFF] pt-[1rem] px-[2rem] pb-[1.5rem]'>
+                                    <div className='mx-auto  h-full bg-[#FFFBF8] pt-[1rem] px-[2rem] pb-[1.5rem]'>
                                         <div className=''>
 
                                             <div className={`${DMSansReg.className} text-start text-[#CFFAAB] px-4 py-2 my-4 bg-[#2D2D2D] w-min whitespace-pre`}>
@@ -123,7 +123,7 @@ const page = () => {
                 </div> */}
                                 </li>
 
-                                {/* <li className='border relative border-solid border-[#dadce0] rounded-[12px] my-[1.5rem] mx-0 shadow-[0_1px_2px_0px_rgba(60,64,67,0.3),0_1px_3px_1px_rgba(60,64,67,.15)]'>
+                                {/* <li className='border relative border-solid border-[#dadce0] rounded-[12px] my-[1.5rem] mx-0 '>
                 <div className='mx-auto  h-full  pt-[1rem] px-[2rem] pb-[1.5rem]'>
                   <div className=''>
                     <div className='flex-grow-0 flex-shrink-0 basis-auto pl-0 p-[.75rem] w-[75%]'>
@@ -162,11 +162,11 @@ const page = () => {
               </li>  */}
 
 
-                                <li className='relative border border-solid border-black  my-[1.5rem] mx-0 shadow-[0_1px_2px_0px_rgba(60,64,67,0.3),0_1px_3px_1px_rgba(60,64,67,.15)]'>
-                                    <div className='flex-grow-0 flex-shrink-0 basis-auto bg-[#A7F9A4]  px-[2rem] py-[1.5rem]  p-[.75rem]  border-b border-solid border-black'>
+                                <li className='relative border-2 border-solid border-black  my-[1.5rem] mx-0 '>
+                                    <div className='flex-grow-0 flex-shrink-0 basis-auto bg-[#A7F9A4]  px-[2rem] py-[1.5rem]  p-[.75rem]  border-b-2 border-solid border-black'>
                                         <h2 className={`${QuandoRegular.className} text-[#100C0ACC] text-start text-[1.5rem] leading-[2rem] font-normal  `}>AI Research Intern</h2>
                                     </div>
-                                    <div className='mx-auto bg-[#FFFFFF] h-full  pt-[1rem] px-[2rem] pb-[1.5rem]'>
+                                    <div className='mx-auto bg-[#FFFBF8] h-full  pt-[1rem] px-[2rem] pb-[1.5rem]'>
                                         <div className=''>
 
                                             <div className={`${DMSansReg.className} text-start text-[#CFFAAB] px-4 py-2 my-4 bg-[#2D2D2D] w-min whitespace-pre`}>
@@ -202,7 +202,7 @@ const page = () => {
                 </div> */}
                                 </li>
 
-                                {/* <li className='border relative border-solid border-[#dadce0] rounded-[12px] my-[1.5rem] mx-0 shadow-[0_1px_2px_0px_rgba(60,64,67,0.3),0_1px_3px_1px_rgba(60,64,67,.15)]'>
+                                {/* <li className='border relative border-solid border-[#dadce0] rounded-[12px] my-[1.5rem] mx-0 '>
                 <div className='mx-auto  h-full  pt-[1rem] px-[2rem] pb-[1.5rem]'>
                   <div className=''>
                     <div className='flex-grow-0 flex-shrink-0 basis-auto pl-0 p-[.75rem] w-[75%]'>
@@ -239,11 +239,11 @@ const page = () => {
                 </div>
               </li> */}
 
-                                <li className='relative border border-solid border-black  my-[1.5rem] mx-0 shadow-[0_1px_2px_0px_rgba(60,64,67,0.3),0_1px_3px_1px_rgba(60,64,67,.15)]'>
-                                    <div className='flex-grow-0 flex-shrink-0 basis-auto bg-[#A7F9A4]  px-[2rem] py-[1.5rem]  p-[.75rem]  border-b border-solid border-black'>
+                                <li className='relative border-2 border-solid border-black  my-[1.5rem] mx-0 '>
+                                    <div className='flex-grow-0 flex-shrink-0 basis-auto bg-[#A7F9A4]  px-[2rem] py-[1.5rem]  p-[.75rem]  border-b-2 border-solid border-black'>
                                         <h2 className={`${QuandoRegular.className} text-[#100C0ACC] text-start text-[1.5rem] leading-[2rem] font-normal  `}>AI Threat Modeling Intern</h2>
                                     </div>
-                                    <div className='mx-auto  h-full bg-[#FFFFFF] pt-[1rem] px-[2rem] pb-[1.5rem]'>
+                                    <div className='mx-auto  h-full bg-[#FFFBF8] pt-[1rem] px-[2rem] pb-[1.5rem]'>
                                         <div className=''>
 
                                             <div className={`${DMSansReg.className} text-start text-[#CFFAAB] px-4 py-2 my-4 bg-[#2D2D2D] w-min whitespace-pre`}>
@@ -287,11 +287,11 @@ const page = () => {
                 </div> */}
                                 </li>
 
-                                <li className='relative border border-solid border-black  my-[1.5rem] mx-0 shadow-[0_1px_2px_0px_rgba(60,64,67,0.3),0_1px_3px_1px_rgba(60,64,67,.15)]'>
-                                    <div className='flex-grow-0 flex-shrink-0 basis-auto bg-[#A7F9A4]  px-[2rem] py-[1.5rem]  p-[.75rem]  border-b border-solid border-black'>
+                                <li className='relative border-2 border-solid border-black  my-[1.5rem] mx-0 '>
+                                    <div className='flex-grow-0 flex-shrink-0 basis-auto bg-[#A7F9A4]  px-[2rem] py-[1.5rem]  p-[.75rem]  border-b-2 border-solid border-black'>
                                         <h2 className={`${QuandoRegular.className} text-[#100C0ACC] text-start text-[1.5rem] leading-[2rem] font-normal  `}>AI Engineer</h2>
                                     </div>
-                                    <div className='mx-auto  h-full bg-[#FFFFFF] pt-[1rem] px-[2rem] pb-[1.5rem]'>
+                                    <div className='mx-auto  h-full bg-[#FFFBF8] pt-[1rem] px-[2rem] pb-[1.5rem]'>
                                         <div className=''>
 
                                             <div className={`${DMSansReg.className} text-start text-[#CFFAAB] px-4 py-2 my-4 bg-[#2D2D2D] w-min whitespace-pre`}>
@@ -329,7 +329,7 @@ const page = () => {
 
 
 
-                                {/* <li className='relative border border-solid border-[#dadce0] rounded-[12px] my-[1.5rem] mx-0 shadow-[0_1px_2px_0px_rgba(60,64,67,0.3),0_1px_3px_1px_rgba(60,64,67,.15)]'>
+                                {/* <li className='relative border border-solid border-[#dadce0] rounded-[12px] my-[1.5rem] mx-0 '>
                 <div className='mx-auto  h-full  pt-[1rem] px-[2rem] pb-[1.5rem]'>
                   <div className=''>
                     <div className='flex-grow-0 flex-shrink-0 basis-auto pl-0 p-[.75rem] w-[75%]'>

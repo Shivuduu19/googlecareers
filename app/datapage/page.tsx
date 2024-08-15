@@ -11,7 +11,7 @@ const page = () => {
                     <main className=' h-full py-[1.5rem] '>
                         <div className='my-0 mx-auto py-0 px-[3rem] h-full max-w-[1280px] min-w-[900px]'>
                             <ul className='my-[-1.5rem] mx-0'>
-                                <li className='relative border border-solid bg-[#FFFFFF] border-black  my-[1.5rem] mx-0 shadow-[0_1px_2px_0px_rgba(60,64,67,0.3),0_1px_3px_1px_rgba(60,64,67,.15)]'>
+                                <li className='relative border-2 border-solid bg-[#FFFBF8] border-black  my-[1.5rem] mx-0 '>
                                     <div className='flex-grow-0  flex-shrink-0 basis-auto   px-[2rem] py-[1.5rem]  p-[.75rem]  '>
                                         <h2 className={`${QuandoRegular.className} text-start leading-[2rem] font-normal text-[#202124] text-[1.3rem] `}>Why Studying In America Will Kill Your Career | H1B Trap: Explained ...</h2>
                                     </div>
