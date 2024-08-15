@@ -183,7 +183,7 @@ const page = () => {
                                             <ul className='pl-[40px] [&>*]:list-disc my-1 leading-[1.5rem] text-[1rem] tracking-[.00625em] font-normal' >
                                                 <li><p>Assist in designing and implementing machine learning models to analyse large datasets in healthcare, such as electronic health records, imaging data, and genomics.</p></li><li><p>Participate in research to explore new AI techniques and methodologies that can be applied to healthcare challenges.</p></li><li><p>Collaborate with the team to improve existing AI models, enhancing their accuracy, efficiency, and clinical relevance.</p></li><li><p>Help in conducting rigorous evaluations of AI models, including statistical analysis and validation against clinical outcomes.</p></li><li><p>Contribute to writing research papers, reports, and proposals for new projects or funding opportunities.</p></li>
                                             </ul>
-                                            <h4>Here's    startup before. Can you give us a few examples, if yes?</h4>
+                                            <h4>Here&apos;s    startup before. Can you give us a few examples, if yes?</h4>
                                         </div>
 
                                         <div className='inline '>
@@ -299,7 +299,7 @@ const page = () => {
                                                 Simbian </div>
                                         </div>
                                         <div className={` ${SchibstedGroteskMedium.className} text-[#100C0ACC]/[.8] text-start  py-[1rem] px-[2rem] mt-[1rem] mx-[-2rem] mb-0 text-[#202124] `}>
-                                            <h4 className={`${ProductSansReg.className}  text-[1rem] leading-[1.5rem] font-semibold text-[#202124] tracking-[.00625em] mb-[.5rem]`}>What you'll do:</h4>
+                                            <h4 className={`${ProductSansReg.className}  text-[1rem] leading-[1.5rem] font-semibold text-[#202124] tracking-[.00625em] mb-[.5rem]`}>What you&apos;ll do:</h4>
                                             <ul className='pl-[40px] [&>*]:list-disc my-1 leading-[1.5rem] text-[1rem] tracking-[.00625em] font-normal' >
                                                 <li><p>Develop state-of-the-art AI agents and systems aimed at revolutionizing how security teams detect, triage, and respond to incidents, using models such as LLama, Claude, and GPT-4.</p></li><li><p>Create prototypes and Minimum Viable Products (MVPs) to showcase new AI capabilities in the context of security, focusing on the integration of diverse security tools and data.</p></li><li><p>Design and implement advanced internal agent-based systems for security operations, including anomaly detection, threat intelligence correlation, and automated incident prioritization.</p></li><li><p>Prototype and innovate AI solutions that streamline security processes, enhance detection accuracy, and improve response times.</p></li><li><p>Work closely with product and engineering teams to integrate AI technologies into our security solutions, ensuring they meet high-performance standards and contribute to user-centric outcomes.</p></li>
                                             </ul><p></p>

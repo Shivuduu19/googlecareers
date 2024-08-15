@@ -23,7 +23,7 @@ const page = () => {
                                                 Aevy Tv</div>
                                         </div>
                                         <div className={` ${SchibstedGroteskMedium.className} text-[#100C0ACC]/[.8] text-start text-[1.1rem] leading-[2rem] tracking-tight py-[1rem] px-[2rem] mt-[1rem] mx-[-2rem] mb-0 text-[#202124] `}>
-                                            <p>If you're thinking of going to America for work or a master's degree, here's why you might want to
+                                            <p>If you&apos;re thinking of going to America for work or a master&apos;s degree, here&apos;s why you might want to
                                                 think again. This video explains the risks of pursuing a ....</p>
                                         </div>
 

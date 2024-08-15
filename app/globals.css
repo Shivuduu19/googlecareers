@@ -19,7 +19,7 @@
 
 body {
   background-size: 100px 100px;
-  background-color: '#EAFED9';
+  background-color: #eafed9;
   background-image:
     linear-gradient(to right, #dff5c4 2px, transparent 1px),
     linear-gradient(to bottom, #dff5c4 2px, transparent 1px);

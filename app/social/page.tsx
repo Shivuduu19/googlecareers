@@ -18,9 +18,9 @@ const page = () => {
                                         </div>
                                         <div className='mx-auto  h-full bg-[#FFFFFF]  pt-[1rem] px-[2rem] '>
                                             <div className=''>
-                                                <h2 className={`${QuandoRegular.className} text-[#100C0ACC] text-start text-[1.5rem] leading-[2rem] font-normal tracking-tight my-5  `}>Virtusa's Broken Promises:Our Struggle and Plea for Justice</h2>
-                                                <h3 className={`${DMSansReg.className} text-[#100C0ACC]/[.8] font-normal text-[1.3rem] leading-[2] tracking-tight w-[766px] `}>I'm part of the 2023 batch that Virtusa hired during campus placements. They
-                                                    recruited a ton of freshers from all over India, and like most colleges, once you're...</h3>
+                                                <h2 className={`${QuandoRegular.className} text-[#100C0ACC] text-start text-[1.5rem] leading-[2rem] font-normal tracking-tight my-5  `}>Virtusa&apos;s Broken Promises:Our Struggle and Plea for Justice</h2>
+                                                <h3 className={`${DMSansReg.className} text-[#100C0ACC]/[.8] font-normal text-[1.3rem] leading-[2] tracking-tight w-[766px] `}>I&apos;m part of the 2023 batch that Virtusa hired during campus placements. They
+                                                    recruited a ton of freshers from all over India, and like most colleges, once you&apos;re...</h3>
                                                 <div className='flex gap-4'>
 
                                                     <div className={`${DMSansReg.className} text-start text-[#CFFAAB] px-4 py-1 my-4 bg-[#2D2D2D] w-min whitespace-pre`}>
