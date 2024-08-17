@@ -1,5 +1,5 @@
 import React from 'react'
-import { DMSansReg, QuandoRegular } from '../fonts/fonts'
+import { DMSansMed, DMSansReg, QuandoRegular } from '../fonts/fonts'
 
 const page = () => {
     return (
@@ -15,35 +15,35 @@ const page = () => {
                                     {/* <div className='grid grid-rows-[repeat(3,min-content)] grid-cols-[repeat(3,min-content)]'>
                   <div></div>
                 </div> */}
-                                    <div className='flex flex-col pt-10  text-[#100C0A] px-10 bg-[#FFFBF8] h-[800px]' >
-                                        <div className='flex   '>
-                                            <div className='w-[400px] flex self-start pb-6'>
+                                    <div className='flex flex-col pt-24 gap-6 text-[#100C0A] px-10 bg-[#FFFBF8] h-[800px]' >
+                                        <div className='flex  gap-5 '>
+                                            <div className='w-[350px] flex self-start '>
 
-                                                <div className={` ${QuandoRegular.className} text-[#100C0A] font-normal text-[1rem] leading-[1.3rem] py-4`}>SDE I - Python Developer</div>
+                                                <div className={` ${QuandoRegular.className} text-[#100C0A] font-normal text-[1rem] tracking-tight leading-[2rem] py-4`}>SDE I - Python Developer</div>
                                             </div>
-                                            <div className='self-start flex py-4 text-[18px] leading-[1.45rem] w-[243px]'>Panasonic</div>
+                                            <div className='self-center flex py-4 text-[18px] text-[#141417E5]/[.9] leading-[1.45rem] w-[243px]'>Panasonic</div>
 
-                                            <div className='bg-[#ACFAA8] self-center h-[45px] w-[105px] px-2 py-2 flex justify-center'>0-3 yoe</div>
+                                            <div className={`${DMSansMed.className} bg-[#ACFAA8] text-[1.25rem] font-medium tracking-tight leading-[1.65rem] self-center h-[45px] w-[102px] px-2 py-2 flex justify-center items-center`}>0-3 yoe</div>
                                         </div>
 
-                                        <div className='flex  '>
-                                            <div className='w-[400px] flex justify-start pb-6'>
-                                                <div className={` ${QuandoRegular.className} w-[331px] px-0   text-[#100C0A] font-normal text-[1rem] leading-[1.3rem] py-4`}>Junior Merchandise Designer(Fashion
+                                        <div className='flex gap-5 '>
+                                            <div className='w-[350px] flex justify-start '>
+                                                <div className={` ${QuandoRegular.className} w-[331px] px-0   text-[#100C0A] font-normal tracking-tight text-[1rem] leading-[2rem] py-4`}>Junior Merchandise Designer(Fashion
                                                     Designer)</div>
                                             </div>
-                                            <div className=' flex self-center py-4 text-[18px] leading-[1.45rem] w-[243px]'>K.S.E. INC</div>
-                                            <div className='bg-[#ACFAA8] flex justify-center self-center h-[45px] w-[105px] px-2 py-2'>1-4 yoe</div>
+                                            <div className=' flex self-center text-[#141417E5]/[.9] py-4 text-[18px] leading-[1.45rem] w-[243px]'>K.S.E. INC</div>
+                                            <div className={`${DMSansMed.className} bg-[#ACFAA8]  text-[1.25rem] font-medium tracking-tight leading-[1.65rem] flex justify-center self-center items-center h-[45px] w-[102px] px-2 py-2`}>1-4 yoe</div>
 
                                         </div>
 
 
-                                        <div className='flex  '>
-                                            <div className='w-[400px] flex pb-6'>
-                                                <div className={` ${QuandoRegular.className} text-[1rem] leading-[1.3rem] w-[307px] py-4`}>Customer Service Process Associate
+                                        <div className='flex gap-5 '>
+                                            <div className='w-[350px] self-center flex '>
+                                                <div className={` ${QuandoRegular.className} text-[1rem] leading-[2rem] w-[307px] tracking-tight py-4`}>Customer Service Process Associate
                                                     (Voice-English)</div>
                                             </div>
-                                            <div className=' flex py-4 self-center text-[18px] leading-[1.45rem] text-[#100C0A] font-normal w-[243px]'>Genpact India Private Limited</div>
-                                            <div className='bg-[#ACFAA8] self-center h-[45px] w-[105px] px-2 py-2 flex justify-center'>0-1 yoe</div>
+                                            <div className=' flex  self-center text-[#141417E5]/[.9] text-[1.125rem] whitespace-pre-wrap leading-[1.45rem] text-[#100C0A] font-normal tracking-tight w-[243px]'>Genpact India Private Limited</div>
+                                            <div className={`${DMSansMed.className} bg-[#ACFAA8]  text-[1.25rem] font-medium tracking-tight leading-[1.65rem] self-center h-[45px] w-[102px] px-2 py-2 flex justify-center items-center`}>0-1 yoe</div>
 
                                         </div>
                                     </div>

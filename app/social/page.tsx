@@ -43,9 +43,9 @@ const page = () => {
                                     </li>
 
                                 </a>
-                                <a href="/nmims">
+                                <a href="/nmims" target='_blank'>
                                     <li className='relative border-2 min-w-[900px] max-w-[1280px] h-[320px] border-solid border-black  overflow-hidden my-[1.5rem] mx-0 '>
-                                        <div className='flex-grow-0 flex-shrink-0 basis-auto bg-[#A7F9A4]  px-[2rem] py-[1.5rem]  p-[.75rem]  border-b-2 border-solid border-black'>
+                                        <div className='flex-grow-0 flex-shrink-0 basis-auto bg-[#CEFFA5]  px-[2rem] py-[1.5rem]  p-[.75rem]  border-b-2 border-solid border-black'>
 
                                         </div>
                                         <div className='mx-auto  h-full bg-[#FFFBF8]  pt-[1rem] px-[2rem] pb-[1.5rem]'>
