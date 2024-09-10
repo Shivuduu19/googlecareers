@@ -1,6 +1,7 @@
 // 'use client'
-import { SchibstedGroteskMedium } from "@/app/fonts/fonts";
+import { DMSansMed, DMSansReg, QuandoRegular, SchibstedGroteskMedium } from "@/app/fonts/fonts";
 import React, { useState } from "react";
+import parse from 'html-react-parser';
 
 export interface CommentProps {
   id: number;
@@ -17,15 +18,17 @@ const Comment: React.FC<{ comment: CommentProps }> = ({ comment }) => {
   // } else { 
   //   comment.children
   // }
+
+
   return (
     <div>
-      <li className='relative overflow-hidden min-w-[900px] p-4 my-3 max-w-[1280px] border-2 h-min border-solid border-black   mx-0 pb-3 pr-3 rounded-[10px]  bg-[#FFFBF8]'>
-        <p className={`${SchibstedGroteskMedium.className} font-normal text-[1.065rem] leading-[2] w-auto tracking-[-.005em] mx-8 py-6 text-[#100C0A]/[.9]`}>
-          {comment.text}
+      <li className='relative overflow-hidden min-w-[900px] p-1 my-1 max-w-[1000px] border-2 h-min border-solid border-black   mx-0    bg-[#FFFBF8]'>
+        <p className={`${DMSansReg.className} font-normal [&>ol]:list-decimal [&>ol]:ml-8 text-[1.065rem] leading-[1.7] w-auto tracking-[-.005em] mx-5 my-[15px] mr-8 py-1 text-[#100C0A]/[.9]`}>
+          {parse(comment.text)}
         </p>
       </li>
       {comment.children && (
-        <div className="flex flex-col w-full">
+        <div className="flex flex-col mt-8  w-full">
           {comment.children.map((child, index) => {
             let count = 1
             if (comment.children) {
@@ -59,9 +62,9 @@ const Comment: React.FC<{ comment: CommentProps }> = ({ comment }) => {
 
             // console.log(count);
 
-            return <div key={child.id} className="relative w-full h-full pl-[40px]">
+            return <div key={child.id} className="relative w-full h-full max-w-[1000px] pl-[40px]">
               <div
-                className={`absolute -top-3 left-4 aspect-square w-[24px] border-l-2 border-b-2 rounded-bl-xl border-black h-[90px]`}
+                className={`absolute bottom-12 left-4 aspect-square w-[24px] border-l-2 border-b-2 rounded-bl-xl border-black h-[130px]`}
               ></div>
               <Comment comment={child} />
             </div>
