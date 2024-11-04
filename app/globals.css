@@ -25,6 +25,25 @@ body {
     linear-gradient(to bottom, #dff5c4 2px, transparent 1px);
 }
 
+.inner-commment {
+  border-left: 2px solid #000;
+}
+
+.shaddow {
+  box-shadow: calc(30px * -1 - 1px) 0 0 0 #eafed9;
+}
+
+.corner::before {
+  left: -24px;
+  content: "";
+  top: -5px;
+  height: 35px;
+  width: 23px;
+  position: absolute;
+  border-left: 2px solid #000;
+  border-bottom: 2px solid #000;
+  border-bottom-left-radius: 8px;
+}
 
 @layer utilities {
   .text-balance {

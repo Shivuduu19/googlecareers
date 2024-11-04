@@ -21,3 +21,6 @@ export const QuandoRegular = localFont({
 export const SchibstedGroteskMedium = localFont({
     src: "./SchibstedGrotesk-Medium.ttf",
 });
+export const SchibstedGroteskregular = localFont({
+    src: "./SchibstedGrotesk-Regular.ttf",
+});
